@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+body{
+    padding: 0.5rem;
+    margin-top: 4rem;
+    background: rgb(49,164,198);
+    background: linear-gradient(90deg, rgba(49,164,198,1) 1%, rgba(9,9,121,1) 26%, rgba(22,148,173,1) 77%);
+}
