@@ -39,3 +39,10 @@ label{
     background: linear-gradient(to left, #00ffff,#5f9ea0,#00bfff);
     
 }
+button{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+button:hover{
+    background: #00ffff;
+}
