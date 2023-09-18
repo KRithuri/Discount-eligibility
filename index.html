@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discount Eligibility Program</title>
+    <!--Link to css-->
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a95ab3e3ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form action="">
-        <label for="age" id="age">Age</label>
-        <input type="number" id="age" name="age">
-        <label for="status">Are you a member?</label>
-        <input type="checkbox" id="status" name="status">
-        <button onclick="checkEligibility()">Check Eligibility</button>
-        <!--<input type="button" value="Check Eligibility">-->
-        <output></output>
-    </form>
+    <div>
+        <div class="image">
+            <div class="container">
+                <div class="content">
+                    <h1>Discount Eligibility Program <i class="fa-solid fa-calculator"></i></h1>
+                    
+                     <!--make form to not auto reload after submission-->
+                    <form id="form" onsubmit="return false;">
+                    <!--getting user input for age-->
+                    <label for="age">Enter Age</label><br>
+                    <input type="number" id="age" name="age"><br>
+                    
+                    <div class="status">
+                        <!--getting user input for membership status-->
+                        <label for="status">Are you a member?</label>
+                        <input type="checkbox" id="status" name="status"><br>
+                    </div>
+                    
+                    <!--button to check eligibility-->
+                    <button onclick="checkEligibility()">Check Eligibility</button>
+                    <!--displaying results-->
+                    <p id="output"></p>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
     <script src="script.js"></script>
 </body>
 </html>
