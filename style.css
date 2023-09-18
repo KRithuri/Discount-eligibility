@@ -18,3 +18,24 @@ p{
 label{
     font-size: 2rem;
 }
+.content{
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+    padding: top;
+}
+.status{
+    padding: 2rem;
+}
+
+.container{
+    height: 30rem;
+    width: 38rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to left, #00ffff,#5f9ea0,#00bfff);
+    
+}
